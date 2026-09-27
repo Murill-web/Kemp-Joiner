@@ -1,4 +1,4 @@
-# 🎙️ Kemp Voice
+#  Kemp Voice
 
 A multi-token Discord voice channel joiner built with Python, featuring a clean desktop UI powered by pywebview + Flask.
 
