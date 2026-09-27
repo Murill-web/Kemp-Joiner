@@ -1,0 +1,8 @@
+.log-container {
+  height: 240px; overflow-y: auto; border: 1px solid var(--border);
+  border-radius: 8px; padding: 10px; margin-bottom: 15px; background: var(--input-bg);
+}
+.log-entry { font-size: 13px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid var(--border); animation: fadeIn 0.3s ease-out; }
+.log-time  { color: var(--text-light); margin-right: 10px; }
+.log-error   { color: var(--error); }
+.log-success { color: var(--success); }

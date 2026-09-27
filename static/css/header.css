@@ -1,0 +1,13 @@
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 5px; padding-bottom: 15px; border-bottom: 1px solid var(--border);
+  -webkit-user-select: none; user-select: none; animation: fadeIn 0.5s ease-out;
+}
+.logo { display: flex; align-items: center; gap: 15px; }
+.logo-icon { height: 30px; border-radius: 8px; }
+h1 { font-size: 24px; color: var(--primary); font-weight: 600; text-shadow: 0 0 10px var(--glow); }
+.status { display: flex; align-items: center; gap: 8px; }
+.status-dot { width: 10px; height: 10px; border-radius: 50%; box-shadow: 0 0 5px currentColor; }
+.status-dot.online  { background: var(--success); }
+.status-dot.offline { background: var(--error); }
+.status-text { font-size: 14px; color: var(--text-light); }

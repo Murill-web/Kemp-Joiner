@@ -1,1 +1,8 @@
-
+.card {
+  background: var(--card-bg); border-radius: 12px; padding: 20px;
+  box-shadow: 0 4px 15px var(--shadow); margin-bottom: 20px;
+  border: 1px solid var(--border);
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px var(--shadow); }
+h2 { font-size: 18px; margin-bottom: 20px; color: var(--primary); font-weight: 500; }
