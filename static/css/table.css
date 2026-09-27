@@ -1,9 +1,0 @@
-.vc-status-container { overflow-x: auto; }
-.vc-status-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-.vc-status-table th, .vc-status-table td {
-  padding: 10px; text-align: left; border-bottom: 1px solid var(--border);
-  transition: background-color var(--transition-speed);
-}
-.vc-status-table tr:hover td { background: rgba(221,53,219,0.05); }
-.vc-status-table th { color: var(--primary-light); font-weight: 500; }
-.vc-status-table .empty-state { text-align: center; color: var(--text-light); padding: 20px; }
